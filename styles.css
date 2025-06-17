@@ -98,8 +98,7 @@ nav.nav li a{
     background-color: #ADD981;
 }
 
-.best-plants{
-    background-color: red;
+.best-plants{   
     min-height: 600px;
     display: flex;
     flex-wrap: wrap;
@@ -140,9 +139,9 @@ nav.nav li a{
 }
 .plant-price{
     color: #ADD981;
-    font-weight: 800;
+    font-weight: bold;
     line-height: 3px;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 /* Nos plantes */
@@ -216,6 +215,15 @@ footer a.cgv{
     border-radius: 7px;
     padding: 10px;
     font-size: 15px;
+     display: inline-block;
+     position: absolute;
+     right: 50px;
+     bottom: 11px;
+}
+.copyright1{
+    color: #ADD981;
+    font-family:'Abril Fatface', cursive;
+    font-size: 25px;
 }
  
 /* la taille de l'ecran */
